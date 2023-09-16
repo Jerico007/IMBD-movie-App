@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Linking Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Linking Css -->
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMBD movie app</title>
+  </head>
+  <body>
+    <div class="heading"><h1>IMBD MOVIE APP</h1></div>
+    <div class="inputs">
+      <div class="input1">
+        <input
+          type="search"
+          name="API_key"
+          id="api"
+          placeholder="API_key"
+          required
+        />
+        <button><img src="Assets/Vector.png" alt="" srcset="" /></button>
+      </div>
+      <div class="input2">
+        <input
+          type="search"
+          name="Search"
+          id="search"
+          required
+          placeholder="Enter a movie name"
+        />
+        <button id="btn" type="submit">
+          <img src="Assets/Search.png" alt="" srcset="" />
+        </button>
+      </div>
+    </div>
+
+    <div id="loader"></div>
+    <div class="container">
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
